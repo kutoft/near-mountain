@@ -324,6 +324,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/Death_to_stock_Dinner_damo_5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.51391e+07,
+		"inputAbbreviatedPath": "\/assets\/images\/Death_to_stock_Dinner_damo_5.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/Death_to_stock_Dinner_damo_5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/DeathtoStock_SlowDown7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.46993e+07,
+		"inputAbbreviatedPath": "\/assets\/images\/DeathtoStock_SlowDown7.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/DeathtoStock_SlowDown7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/IMG_2046.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 549463,
+		"inputAbbreviatedPath": "\/assets\/images\/IMG_2046.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/IMG_2046.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/images\/logo-site.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -331,6 +364,17 @@
 		"initialSize": 4903,
 		"inputAbbreviatedPath": "\/assets\/images\/logo-site.png",
 		"outputAbbreviatedPath": "\/assets\/images\/logo-site.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/nm_logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2827,
+		"inputAbbreviatedPath": "\/assets\/images\/nm_logo.png",
+		"outputAbbreviatedPath": "\/assets\/images\/nm_logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -352,6 +396,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/custom_plugins.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/custom_plugins-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/min\/custom-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/min\/custom-min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/min\/custom-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -625,6 +680,27 @@
 		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		}
 	},
 "hooks": [
@@ -634,8 +710,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "nm-main",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "near-mountain",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_yellow"
 	},
 "projectSettings": {

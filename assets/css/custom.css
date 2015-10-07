@@ -8,19 +8,87 @@ URL: http://www.mysamplesite.com
 /* ====================
 BASE
 ==================== */
+body {
+  overflow: hidden; }
+
 /*
 ===== HEADER =====
 */
-#header .site-logo {
-  display: block;
-  width: 242px;
-  height: 61px;
-  background: url("../images/logo-site.png") no-repeat 0 0; }
+#header {
+  height: 65px;
+  width: 100%; }
+  #header h1 {
+    text-indent: -9999px;
+    margin: 0 10px; }
+    #header h1 .site-logo {
+      display: block;
+      position: relative;
+      top: 2px;
+      width: 260px;
+      height: 60px;
+      background: url("../images/nm_logo.png") no-repeat 0 0; }
 
 /* MAIN NAV */
 /*
 ===== MAIN =====
 */
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  padding: 15px;
+  float: left;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  overflow: hidden; }
+  .wrapper .content {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .wrapper .content a {
+      display: inline-block;
+      padding: 12px 20px;
+      border: 2px solid #fff;
+      background-color: transparent;
+      color: #fff;
+      font-size: 1.8rem;
+      text-transform: uppercase; }
+  .wrapper .image {
+    min-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+  .wrapper:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out; }
+  .wrapper:hover:after {
+    background-color: rgba(0, 0, 0, 0.2); }
+
 /*
 ===== FOOTER =====
 */
